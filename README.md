@@ -85,7 +85,7 @@ Full deployment, verification, and update instructions are in [DEPLOY.md](DEPLOY
 Repositories created from this project include a daily **Check for Nova updates** GitHub Action. When a release is available, it opens a pull request containing only `worker.js` and `version.json`. Review the diff and Cloudflare preview, then merge to deploy through Workers Builds. Nontechnical users can optionally enable validated hands-off updates with one repository variable. See [DEPLOY.md](DEPLOY.md) for review mode, automatic mode, and rollback instructions.
 
 ## Using it
-
+0. miew
 1. Open the panel and turn on multi-user.
 2. Create a user (name, quota, expiry). The panel generates their private link.
 3. Copy that user's link and send it to them.
